@@ -3,8 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent} from './home/home.component';
 import { CartComponent } from './cart/cart.component';
 import { AboutComponent } from './about/about.component';
-import { ProductsComponent } from './products/products.component';
-import { ProcuctDetailComponent } from './procuct-detail/procuct-detail.component';
+import { DogProductsComponent } from './dog-products/dog-products.component';
+import { CatProductsComponent } from './cat-products/cat-products.component';
+import { RodentsProductsComponent } from './rodents-products/rodents-products.component';
+
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+
 
 
 const routes: Routes = [
@@ -16,9 +20,17 @@ const routes: Routes = [
   }, {
     path: 'about', component: AboutComponent
   }, {
-    path: 'products', component: ProductsComponent
+
+    path: 'product-details', component: ProductDetailComponent
   }, {
-    path: 'product-details', component: ProcuctDetailComponent
+
+    path: 'dogs', component: DogProductsComponent
+  }, {
+
+    path: 'cats', component: CatProductsComponent
+  }, {
+
+    path: 'rodents', component: RodentsProductsComponent
   },
 
 ];
