@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { CartComponent } from './cart/cart.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { FooterComponent } from './footer/footer.component';
 import { DogProductsComponent } from './dog-products/dog-products.component';
@@ -21,7 +20,6 @@ import { RodentsProductsComponent } from './rodents-products/rodents-products.co
     HeroComponent,
     HomeComponent,
     AboutComponent,
-    CartComponent,
     ProductDetailComponent,
     FooterComponent,
     DogProductsComponent,
