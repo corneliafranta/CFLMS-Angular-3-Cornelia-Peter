@@ -1,1 +1,22 @@
-<p>dog-products works!</p>
+<div class="container">
+
+  <h1>Our Products for Dogs</h1>
+
+  <div class="row">
+    <div *ngFor="let product of dogProducts" class="col-md-4">
+
+      <div class="imgCont"><img src="/assets/img/{{product.img}}" alt=""></div>
+      <div class="textCont">
+        <h3>{{ product.name }}</h3>
+        <p class="brand">{{ product.brand }}</p>
+        <p class="detail"><i class='fas fa-balance-scale'></i> {{product.quantity}}</p>
+        <p class="detail"><i class='fas fa-money-bill-wave'></i> {{product.price}}€</p>
+        <a routerLink="#" class="btn">learn more</a>
+        <a href="#"></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+

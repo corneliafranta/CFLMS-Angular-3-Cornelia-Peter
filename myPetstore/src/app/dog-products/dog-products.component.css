@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  padding-bottom: 3em;
+  font-size: 3em;
+}
+
+.container {
+  background-color: white;
+  padding-top: 4em;
+}
+
+.col-md-4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.col-md-4 h3 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+}
+.col-md-4 .brand {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+.col-md-4 .detail {
+  text-align: center;
+}
+
+.imgCont {
+  width: 100%;
+}
+.imgCont img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=dog-products.component.css.map */
